@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', monospace;
+    background: #000 url('/static/img/ss051.jpg') repeat;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background: rgba(20,20,20,0.98);
+    border: 1px solid #444;
+    padding: 20px 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Press Start 2P', monospace;
+    color: #fff;
+    margin-top: 0;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.download-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.url-input, .bitrate-select, .download-button {
+    background: #111;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 12px;
+    width: 350px;
+    box-sizing: border-box;
+}
+
+.url-input, .bitrate-select {
+  font-family: monospace;
+}
+
+.url-input::placeholder {
+    color: #888;
+}
+
+.url-input:focus, .bitrate-select:focus {
+    outline: none;
+    border-color: #0ff;
+}
+
+.bitrate-select {
+    cursor: pointer;
+}
+
+.download-button {
+    font-family: 'Press Start 2P', monospace;;
+    background: rgba(24, 24, 24, 0.98);;
+    color: #ffffff;
+    border: 1px solid #0f0;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s;
+}
+
+a {
+    color: #0ff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: rgb(229, 197, 255);
+}
+  
